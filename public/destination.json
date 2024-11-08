@@ -1,0 +1,186 @@
+[
+  {
+    "id": "E11381DDCE6E4",
+    "name": "Cox's Bazar",
+    "description": "Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts. South of town, the tropical rainforest of Himchari National Park has waterfalls and many birds. North, sea turtles breed on nearby Sonadia Island.",
+    "image": "https://i.ibb.co.com/KhS8sT0/coxs-bazar.png",
+    "lat": 21.43392,
+    "lng": 91.98703,
+    "hotel": [
+      {
+        "hotelId": "H001",
+        "hotelImg": "https://i.ibb.co/rsh9bW8/Rectangle-26.png",
+        "hotelName": "Seagull Hotel",
+        "guest": 4,
+        "bed": 3,
+        "bath": 2,
+        "review": { "rating": 4.7, "count": 150 },
+        "price": 55,
+        "lat": 21.428812,
+        "lng": 91.978626
+      },
+      {
+        "hotelId": "H002",
+        "hotelImg": "https://i.ibb.co/KLHTH1w/Rectangle-27.png",
+        "hotelName": "Long Beach Hotel",
+        "guest": 3,
+        "bed": 2,
+        "bath": 1,
+        "review": { "rating": 4.6, "count": 200 },
+        "price": 60,
+        "lat": 21.426878,
+        "lng": 91.982582
+      },
+      {
+        "hotelId": "H003",
+        "hotelImg": "https://i.ibb.co/Hz1RpXL/Rectangle-28.png",
+        "hotelName": "Hotel The Cox Today",
+        "guest": 2,
+        "bed": 1,
+        "bath": 1,
+        "review": { "rating": 4.8, "count": 250 },
+        "price": 70,
+        "lat": 21.427505,
+        "lng": 91.979869
+      }
+    ]
+  },
+  {
+    "id": "B617D5334A7F4",
+    "name": "Sundarban",
+    "description": "The Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. It spans from the Hooghly River in India's state of West Bengal to the Baleswar River in Bangladesh. It comprises closed and open mangrove forests, agriculturally used land, mudflats and barren land, and is intersected by multiple tidal streams and channels.",
+    "image": "https://i.ibb.co.com/RYXwt4N/sundorbon.png",
+    "lat": 22.00099,
+    "lng": 88.679893,
+    "hotel": [
+      {
+        "hotelId": "H004",
+        "hotelImg": "https://i.ibb.co/BydKddX/230461234.jpg",
+        "hotelName": "Tiger Garden International",
+        "guest": 2,
+        "bed": 1,
+        "bath": 1,
+        "review": { "rating": 4.5, "count": 180 },
+        "price": 45,
+        "lat": 22.807502,
+        "lng": 89.556777
+      },
+      {
+        "hotelId": "H005",
+        "hotelImg": "https://i.ibb.co/Bc0b2p4/241458675.jpg",
+        "hotelName": "Hotel Sundarban",
+        "guest": 4,
+        "bed": 2,
+        "bath": 2,
+        "review": { "rating": 4.7, "count": 120 },
+        "price": 50,
+        "lat": 22.808728,
+        "lng": 89.560273
+      },
+      {
+        "hotelId": "H006",
+        "hotelImg": "https://i.ibb.co/Fs103gG/244928554.jpg",
+        "hotelName": "Royal Hotel Sundarbans",
+        "guest": 3,
+        "bed": 1,
+        "bath": 1,
+        "review": { "rating": 4.6, "count": 100 },
+        "price": 55,
+        "lat": 22.804123,
+        "lng": 89.553437
+      }
+    ]
+  },
+  {
+    "id": "A5B1AC21CEFA9",
+    "name": "Sreemangal",
+    "description": "It is said the name Sreemangal (or Srimangal) is named after Sri Das and Mangal Das; two brothers who settled on the banks of the Hail Haor. A copper plate of Raja Marundanath from the 11th century was found in Kalapur. During an excavation at Lamua, an ancient statue of Ananta Narayan was dug out. In 1454, the Nirmai Shiva Bari was built and still stands today.",
+    "image": "https://i.ibb.co.com/xHYsT1Z/Sreemongol.png",
+    "lat": 24.310577,
+    "lng": 91.725136,
+    "hotel": [
+      {
+        "hotelId": "H007",
+        "hotelImg": "https://i.ibb.co/dKpgsr7/99b6eea.jpg",
+        "hotelName": "Grand Sultan Tea Resort",
+        "guest": 2,
+        "bed": 1,
+        "bath": 1,
+        "review": { "rating": 4.9, "count": 220 },
+        "price": 80,
+        "lat": 24.308334,
+        "lng": 91.731104
+      },
+      {
+        "hotelId": "H008",
+        "hotelImg": "https://i.ibb.co/tCkL6mY/230450490.jpg",
+        "hotelName": "Tea Heaven Resort",
+        "guest": 5,
+        "bed": 4,
+        "bath": 3,
+        "review": { "rating": 4.7, "count": 180 },
+        "price": 90,
+        "lat": 24.304725,
+        "lng": 91.727421
+      },
+      {
+        "hotelId": "H009",
+        "hotelImg": "https://i.ibb.co/jffG7YB/df256d52.jpg",
+        "hotelName": "Balishira Resort",
+        "guest": 1,
+        "bed": 1,
+        "bath": 1,
+        "review": { "rating": 4.8, "count": 200 },
+        "price": 85,
+        "lat": 24.310871,
+        "lng": 91.729546
+      }
+    ]
+  },
+  {
+    "id": "FB695A3B5CE53",
+    "name": "Sajek",
+    "description": "Sajek is a union located in the north of Chittagong Hill Tracts in Bangladesh. The area is known for its picturesque natural beauty, with a wide range of tea gardens, waterfalls, and hills, making it a popular tourist destination.",
+    "image": "https://i.ibb.co.com/HgXhTHs/Sajek.png",
+    "lat": 23.352165,
+    "lng": 92.358759,
+    "hotel": [
+      {
+        "hotelId": "H0010",
+        "hotelImg": "https://i.ibb.co/5nDKZkX/sajek-1.jpg",
+        "hotelName": "Sajek Valley Resort",
+        "guest": 4,
+        "bed": 2,
+        "bath": 1,
+        "review": { "rating": 4.5, "count": 130 },
+        "price": 70,
+        "lat": 23.353245,
+        "lng": 92.359042
+      },
+      {
+        "hotelId": "H0011",
+        "hotelImg": "https://i.ibb.co/kMKYjbd/sajek-2.jpg",
+        "hotelName": "Sky Valley Resort",
+        "guest": 3,
+        "bed": 2,
+        "bath": 1,
+        "review": { "rating": 4.6, "count": 150 },
+        "price": 65,
+        "lat": 23.354932,
+        "lng": 92.35862
+      },
+      {
+        "hotelId": "H0012",
+        "hotelImg": "https://i.ibb.co/vHFGxQm/sajek-3.jpg",
+        "hotelName": "Hilltop Resort Sajek",
+        "guest": 2,
+        "bed": 1,
+        "bath": 1,
+        "review": { "rating": 4.7, "count": 100 },
+        "price": 60,
+        "lat": 23.355746,
+        "lng": 92.358935
+      }
+    ]
+  }
+]

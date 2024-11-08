@@ -3,7 +3,8 @@ import Home from "../page/Home/Home";
 import Booking from "../page/Booking/Booking";
 import Login from "../page/Login/Login";
 import Register from "../page/Register/Register";
-import { Root } from "postcss";
+import AuthRoot from "./AuthRoot";
+import Root from "./Root";
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/",
-    element: null,
+    element: <AuthRoot />,
     children: [
       {
         path: "login",
