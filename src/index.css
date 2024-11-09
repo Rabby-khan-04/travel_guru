@@ -14,3 +14,7 @@
 .primary__btn {
   @apply font-montserrat text-base text-black px-7 py-3 bg-crayola rounded-md inline-block font-medium;
 }
+
+.swiper-slide.swiper-slide-active .slide {
+  border: 4px solid #f9a51a;
+}

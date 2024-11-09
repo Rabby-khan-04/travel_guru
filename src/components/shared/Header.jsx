@@ -23,17 +23,19 @@ const Header = ({ theme = "dark" }) => {
   );
 
   return (
-    <header className="py-10">
+    <header className={`py-10 ${theme === "light" && "-mb-[136px]"}`}>
       <nav className="container flex items-center gap-12">
         <figure className="grow">
-          <img
-            className="h-14"
-            src={theme === "dark" ? logoBlack : logoWhite}
-            alt=""
-          />
+          <Link to="/">
+            <img
+              className="h-14"
+              src={theme === "dark" ? logoBlack : logoWhite}
+              alt=""
+            />
+          </Link>
         </figure>
 
-        {theme === "dark" && (
+        {theme === "light" && (
           <div className="w-[370px]">
             <label className="input input-bordered flex items-center gap-3 border-white text-white bg-white/20">
               <FiSearch />
