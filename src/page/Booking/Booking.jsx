@@ -2,6 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import LoadingSpinner from "../../components/shared/LoadingSpinner";
+import BookingForm from "../../components/Booking/BookingForm";
 
 const Booking = () => {
   const { loading, setLoading } = useContext(AuthContext);
@@ -29,7 +30,9 @@ const Booking = () => {
             <h1 className="font-bebas_neue text-8xl text-white">{name}</h1>
             <p className="mb-6">{description}</p>
           </div>
-          <div className=""></div>
+          <div className="bg-white rounded-md py-7 px-6">
+            <BookingForm name={name} id={id} />
+          </div>
         </div>
       </div>
     </section>

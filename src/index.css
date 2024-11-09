@@ -18,3 +18,7 @@
 .swiper-slide.swiper-slide-active .slide {
   border: 4px solid #f9a51a;
 }
+
+.form__input {
+  @apply p-3 bg-white focus:bg-white w-full border-b border-b-[#C5C5C5] rounded-none outline-none focus:outline-none focus:border-b placeholder:text-black placeholder:font-medium text-black font-medium;
+}
