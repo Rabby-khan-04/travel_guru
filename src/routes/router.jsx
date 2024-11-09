@@ -6,6 +6,7 @@ import Register from "../page/Register/Register";
 import AuthRoot from "./AuthRoot";
 import Root from "./Root";
 import axios from "axios";
+import ProtectedRoute from "./ProtectedRoute";
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,12 @@ const router = createBrowserRouter([
       },
       {
         path: "booking/:destinationId",
-        element: <Booking />,
+        element: (
+          <ProtectedRoute>
+            {" "}
+            <Booking />
+          </ProtectedRoute>
+        ),
         loader: () => axios.get("/destinations.json"),
       },
     ],

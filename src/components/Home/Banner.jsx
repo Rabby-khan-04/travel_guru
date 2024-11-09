@@ -11,25 +11,41 @@ import bannerImg from "../../assets/images/Rectangle_11.png";
 // import required modules
 import { Navigation } from "swiper/modules";
 import DestinationCard from "./DestinationCard";
-import { useContext, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
-import useDestination from "../../hooks/useDestination";
-import { AuthContext } from "../../provider/AuthProvider";
-import LoadingSpinner from "../shared/LoadingSpinner";
 import SliderButton from "./SliderButton";
+import axios from "axios";
+import LoadingSpinner from "../shared/LoadingSpinner";
 
 const Banner = () => {
-  const { loading, setLoading } = useContext(AuthContext);
-  const destinations = useDestination();
-
-  if (destinations.length) setLoading(false);
-
+  const [destinations, setDestinations] = useState([]);
+  const [currentDestination, setCurrentDestination] = useState({});
   const [activeIndex, setActiveIndex] = useState(0);
-  const currentDestination = destinations[activeIndex] || {};
-  const { id, image, name, description } = currentDestination;
+  const [dataLoading, setDataLoading] = useState(true);
 
-  if (loading) return <LoadingSpinner />;
+  useEffect(() => {
+    setDataLoading(true);
+    axios.get("/destinations.json").then((res) => {
+      setDestinations(res.data);
+      if (res.data.length > 0) {
+        setCurrentDestination(res.data[0]);
+        setDataLoading(false);
+      }
+    });
+  }, []);
+
+  useEffect(() => {
+    setDataLoading(true);
+    if (destinations.length > 0) {
+      setCurrentDestination(destinations[activeIndex]);
+      setDataLoading(false);
+    }
+  }, [activeIndex, destinations]);
+
+  if (dataLoading) return <LoadingSpinner />;
+
+  const { id, image, name, description } = currentDestination;
 
   return (
     <section
